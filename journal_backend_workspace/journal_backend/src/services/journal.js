@@ -32,7 +32,7 @@ function parseEntryFile(content) {
       if (key.trim() === 'moods') {
         // eslint-disable-next-line quotes
         try {
-          metadata.moods = JSON.parse(rawValue.trim().replace(/'/g, "\""));
+          metadata.moods = JSON.parse(rawValue.trim().replace(/'/g, '"'));
         } catch {
           // fallback: moods: happy,sad
           metadata.moods = rawValue.trim().replace(/[\[\]]/g, '').split(',').filter(Boolean).map(s => s.trim());
@@ -50,12 +50,12 @@ function parseEntryFile(content) {
 }
 
 function buildEntryFile(metadata, markdownContent) {
-  return `---\n` +
-    `id: ${metadata.id}\n` +
-    `date: ${metadata.date}\n` +
-    `moods: ${JSON.stringify(metadata.moods || [])}\n` +
-    `---\n` +
-    `${markdownContent.trim()}\n`;
+  return '---\n' +
+    'id: ' + metadata.id + '\n' +
+    'date: ' + metadata.date + '\n' +
+    'moods: ' + JSON.stringify(metadata.moods || []) + '\n' +
+    '---\n' +
+    markdownContent.trim() + '\n';
 }
 
 class JournalService {
@@ -71,7 +71,38 @@ class JournalService {
         entries.push(entry);
       }
     }
+    // Sort by date descending
     return entries.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+  }
+
+  // PUBLIC_INTERFACE
+  async getTotalWordCount() {
+    /** Returns the total word count of all journal entries */
+    const entries = await this.listEntries();
+    return entries.reduce((total, entry) => total + (parseInt(entry.wordCount, 10) || 0), 0);
+  }
+
+  // PUBLIC_INTERFACE
+  async getTrendingMoods({ top = 5 } = {}) {
+    /**
+     * Returns an array of mood objects {mood, count}, sorted by frequency descending.
+     * Example: [{ mood: 'happy', count: 8 }, ...]
+     */
+    const entries = await this.listEntries();
+    const moodCounts = {};
+    for (const entry of entries) {
+      (entry.moods || []).forEach(mood => {
+        if (mood && mood.trim()) {
+          const key = mood.trim().toLowerCase();
+          moodCounts[key] = (moodCounts[key] || 0) + 1;
+        }
+      });
+    }
+    const result = Object.entries(moodCounts)
+      .map(([mood, count]) => ({ mood, count }))
+      .sort((a, b) => b.count - a.count)
+      .slice(0, top);
+    return result;
   }
 
   // PUBLIC_INTERFACE

@@ -1,0 +1,740 @@
+
+> minimal-express-app@1.0.0 dev
+> nodemon src/server.js
+
+[33m[nodemon] 3.1.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
+
+/**
+^^^
+
+Server running at http://0.0.0.0:3001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
+
+/**
+^^^
+
+Server running at http://0.0.0.0:3001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
+
+/**
+^^^
+
+Server running at http://0.0.0.0:3001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
+
+/**
+^^^
+
+Server running at http://0.0.0.0:3001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
+
+/**
+^^^
+
+Server running at http://0.0.0.0:3001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
+
+/**
+^^^
+
+Server running at http://0.0.0.0:3001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
+
+/**
+^^^
+
+Server running at http://0.0.0.0:3001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
+
+/**
+^^^
+
+Server running at http://0.0.0.0:3001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
+
+/**
+^^^
+
+Server running at http://0.0.0.0:3001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
+
+/**
+^^^
+
+Server running at http://0.0.0.0:3001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
+
+/**
+^^^
+
+Server running at http://0.0.0.0:3001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
+
+/**
+^^^
+
+Server running at http://0.0.0.0:3001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+(node:1335) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [Bus]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/controllers/journal.js:14
+  async totalWordCount(req, res, next) {
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend/src/routes/journal.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
+
+/**
+^^^
+
+Server running at http://0.0.0.0:3001

@@ -79,6 +79,36 @@ class JournalController {
       next(err);
     }
   }
+
+  // PUBLIC_INTERFACE
+  async totalWordCount(req, res, next) {
+    /**
+     * Returns the aggregate word count for all entries.
+     * Response format: { totalWordCount: number }
+     */
+    try {
+      const total = await journalService.getTotalWordCount();
+      res.json({ totalWordCount: total });
+    } catch (err) {
+      next(err);
+    }
+  }
+
+  // PUBLIC_INTERFACE
+  async trendingMoods(req, res, next) {
+    /**
+     * Returns trending moods, optionally limiting results.
+     * Query param: top (number of moods), default=5
+     * Response format: { trendingMoods: [{ mood, count }] }
+     */
+    try {
+      const top = req.query.top ? parseInt(req.query.top, 10) : 5;
+      const moods = await journalService.getTrendingMoods({ top });
+      res.json({ trendingMoods: moods });
+    } catch (err) {
+      next(err);
+    }
+  }
 }
 
 module.exports = new JournalController();
