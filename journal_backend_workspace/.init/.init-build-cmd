@@ -1,0 +1,4 @@
+{
+    "command": "npm install",
+    "working_directory": "/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_backend_workspace/journal_backend"
+}

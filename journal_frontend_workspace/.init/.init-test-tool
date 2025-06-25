@@ -1,0 +1,4 @@
+{
+    "command": "npm run build",
+    "working_directory": "/home/kavia/workspace/code-generation/moodmemo-70882-ebd6eb2e/journal_frontend_workspace/journal_frontend"
+}
