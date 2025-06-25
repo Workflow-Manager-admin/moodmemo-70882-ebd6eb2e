@@ -11,8 +11,12 @@ const router = express.Router();
  *     JournalEntryInput:
  *       type: object
  *       required:
+ *         - title
  *         - content
  *       properties:
+ *         title:
+ *           type: string
+ *           description: Entry title (short, user-facing)
  *         content:
  *           type: string
  *           description: Markdown content of the entry
@@ -29,9 +33,11 @@ const router = express.Router();
  *       allOf:
  *         - $ref: '#/components/schemas/JournalEntryInput'
  *         - type: object
- *           required: [id, wordCount, moods, date]
+ *           required: [id, title, wordCount, moods, date]
  *           properties:
  *             id:
+ *               type: string
+ *             title:
  *               type: string
  *             date:
  *               type: string

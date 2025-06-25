@@ -31,28 +31,39 @@ class JournalController {
   // PUBLIC_INTERFACE
   async create(req, res, next) {
     try {
-      const { content, date, moods } = req.body;
+      const { content, date, moods, title } = req.body;
       if (!content || typeof content !== 'string') {
         return res.status(400).json({ message: 'Content is required (Markdown text).' });
       }
-      const entry = await journalService.createEntry({ content, date, moods });
+      if (!title || typeof title !== 'string' || !title.trim()) {
+        return res.status(400).json({ message: 'Title is required (non-empty string).' });
+      }
+      const entry = await journalService.createEntry({ content, date, moods, title });
       res.status(201).json(entry);
     } catch (err) {
-      next(err);
+      if (err.status && err.expose) {
+        res.status(err.status).json({ message: err.message });
+      } else {
+        next(err);
+      }
     }
   }
 
   // PUBLIC_INTERFACE
   async update(req, res, next) {
     try {
-      const { content, date, moods } = req.body;
-      const entry = await journalService.updateEntry(req.params.id, { content, date, moods });
+      const { content, date, moods, title } = req.body;
+      const entry = await journalService.updateEntry(req.params.id, { content, date, moods, title });
       if (!entry) {
         return res.status(404).json({ message: 'Entry not found' });
       }
       res.json(entry);
     } catch (err) {
-      next(err);
+      if (err.status && err.expose) {
+        res.status(err.status).json({ message: err.message });
+      } else {
+        next(err);
+      }
     }
   }
 

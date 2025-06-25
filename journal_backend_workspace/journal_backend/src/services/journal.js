@@ -11,13 +11,15 @@ if (!fs.existsSync(ENTRIES_DIR)) {
 
 /**
  * Helpers for handling entries as .md files with metadata frontmatter and Markdown body.
+ * The frontmatter now includes: id, title, date, moods (array).
  */
 function parseEntryFile(content) {
-  // Expected format:
+  // Expected format (title required):
   // ---
   // id: xxx
+  // title: Entry title
   // date: yyyy-mm-dd
-  // moods: [happy,sad]
+  // moods: ["happy","excited"]
   // ---
   // (markdown body)
   const match = /^---\n([\s\S]*?)\n---\n([\s\S]*)$/m.exec(content);
@@ -27,19 +29,19 @@ function parseEntryFile(content) {
   const body = match[2];
   const metadata = {};
   metaBlock.split('\n').forEach(line => {
-    const [key, rawValue] = line.split(':');
-    if (key && rawValue !== undefined) {
-      if (key.trim() === 'moods') {
-        // eslint-disable-next-line quotes
-        try {
-          metadata.moods = JSON.parse(rawValue.trim().replace(/'/g, '"'));
-        } catch {
-          // fallback: moods: happy,sad
-          metadata.moods = rawValue.trim().replace(/[\[\]]/g, '').split(',').filter(Boolean).map(s => s.trim());
-        }
-      } else {
-        metadata[key.trim()] = rawValue.trim();
+    // Only split on the first colon
+    const idx = line.indexOf(':');
+    if (idx === -1) return;
+    const key = line.slice(0, idx).trim();
+    const rawValue = line.slice(idx + 1).trim();
+    if (key === 'moods') {
+      try {
+        metadata.moods = JSON.parse(rawValue.replace(/'/g, '"'));
+      } catch {
+        metadata.moods = rawValue.replace(/[\[\]]/g, '').split(',').filter(Boolean).map(s => s.trim());
       }
+    } else {
+      metadata[key] = rawValue;
     }
   });
   metadata.wordCount = body.trim().split(/\s+/).filter(Boolean).length;
@@ -50,12 +52,16 @@ function parseEntryFile(content) {
 }
 
 function buildEntryFile(metadata, markdownContent) {
-  return '---\n' +
-    'id: ' + metadata.id + '\n' +
-    'date: ' + metadata.date + '\n' +
-    'moods: ' + JSON.stringify(metadata.moods || []) + '\n' +
-    '---\n' +
-    markdownContent.trim() + '\n';
+  // Include required title property
+  return (
+    '---\n'
+    + 'id: ' + metadata.id + '\n'
+    + 'title: ' + (metadata.title || '') + '\n'
+    + 'date: ' + metadata.date + '\n'
+    + 'moods: ' + JSON.stringify(metadata.moods || []) + '\n'
+    + '---\n'
+    + markdownContent.trim() + '\n'
+  );
 }
 
 class JournalService {
@@ -117,13 +123,21 @@ class JournalService {
   }
 
   // PUBLIC_INTERFACE
-  async createEntry({ content, date, moods }) {
-    /** Create a new entry, assign UUID, save to .md file, return resulting entry including word count/moods/id/date/content */
+  async createEntry({ content, date, moods, title }) {
+    /**
+     * Create a new entry, assign UUID, save to .md file,
+     * return resulting entry including word count/moods/id/date/content/title
+     */
+    if (!title || typeof title !== 'string' || !title.trim()) {
+      throw Object.assign(new Error('Title is required.'), { status: 400, expose: true });
+    }
     const id = uuidv4();
     const now = date || (new Date()).toISOString().slice(0, 10);
     const sanitizedContent = (content || '').trim();
+    const sanitizedTitle = title.trim();
     const entryMeta = {
       id,
+      title: sanitizedTitle,
       date: now,
       moods: Array.isArray(moods) ? moods : (typeof moods === 'string' ? [moods] : []),
     };
@@ -133,8 +147,11 @@ class JournalService {
   }
 
   // PUBLIC_INTERFACE
-  async updateEntry(id, { content, date, moods }) {
-    /** Update an entry if exists, return updated entry, or null if not found. */
+  async updateEntry(id, { content, date, moods, title }) {
+    /**
+     * Update an entry if exists, return updated entry, or null if not found.
+     * Allows updating title, content, date, or moods (partial OK).
+     */
     const filePath = path.join(ENTRIES_DIR, `${id}.md`);
     if (!fs.existsSync(filePath)) return null;
     // Read old metadata
@@ -142,6 +159,7 @@ class JournalService {
     if (!oldEntry) return null;
     const newMeta = {
       id,
+      title: (typeof title !== 'undefined' ? title : oldEntry.title) || '',
       date: date || oldEntry.date,
       moods: (typeof moods !== 'undefined' ? moods : oldEntry.moods) || [],
     };
@@ -163,7 +181,7 @@ class JournalService {
   // PUBLIC_INTERFACE
   async searchEntries({ text, date, mood }) {
     /**
-     * Search entries by text (in body), date, or mood.
+     * Search entries by text (in body), date, title, or mood.
      * Returns matching entries (with wordCount, moods, etc).
      */
     const files = fs.readdirSync(ENTRIES_DIR).filter(f => f.endsWith('.md'));
@@ -174,7 +192,13 @@ class JournalService {
       if (!entry) continue;
       let keep = true;
       if (typeof text === 'string' && text.trim() !== '') {
-        if (!entry.content.toLowerCase().includes(text.toLowerCase())) keep = false;
+        // Now search in title and content
+        if (
+          !(entry.content.toLowerCase().includes(text.toLowerCase()))
+          && !(entry.title && entry.title.toLowerCase().includes(text.toLowerCase()))
+        ) {
+          keep = false;
+        }
       }
       if (typeof date === 'string' && date.trim() !== '') {
         if (entry.date !== date) keep = false;

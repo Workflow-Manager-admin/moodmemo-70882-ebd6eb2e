@@ -37,6 +37,13 @@ router.get('/', journalController.list.bind(journalController));
  *         application/json:
  *           schema:
  *             $ref: '#/components/schemas/JournalEntryInput'
+ *           example:
+ *             title: My Day
+ *             content: |
+ *               # What happened
+ *               Today I felt happy and motivated!
+ *             date: 2024-05-01
+ *             moods: ["happy", "motivated"]
  *     responses:
  *       201:
  *         description: The created entry
@@ -44,6 +51,15 @@ router.get('/', journalController.list.bind(journalController));
  *           application/json:
  *             schema:
  *               $ref: '#/components/schemas/JournalEntry'
+ *             example:
+ *               id: abcd-efgh
+ *               title: My Day
+ *               content: |
+ *                 # What happened
+ *                 Today I felt happy and motivated!
+ *               wordCount: 7
+ *               date: 2024-05-01
+ *               moods: ["happy", "motivated"]
  */
 router.post('/', journalController.create.bind(journalController));
 
