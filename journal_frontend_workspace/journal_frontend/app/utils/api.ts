@@ -27,6 +27,10 @@ export interface EntrySummary {
   wordCount: number;
 }
 
+/**
+ * EntryDetail now extends EntrySummary and adds 'content' and optionally 'tags'.
+ * The 'title' property is present and required everywhere for entries.
+ */
 export interface EntryDetail extends EntrySummary {
   content: string; // Markdown
   tags?: string[];
@@ -48,6 +52,7 @@ export interface SearchParams {
 
 /**
  * Helper to handle fetch and error conversion.
+ * Also ensures error text is included in thrown message.
  */
 async function apiFetch<T>(
   endpoint: string,
@@ -69,6 +74,10 @@ async function apiFetch<T>(
   return response.json();
 }
 
+/**
+ * List all journal entries (summaries).
+ * Includes 'title' field, properly mapped.
+ */
 // PUBLIC_INTERFACE
 export async function listEntries(
   search?: SearchParams
@@ -79,14 +88,21 @@ export async function listEntries(
   if (search?.fromDate) q.push(`fromDate=${encodeURIComponent(search.fromDate)}`);
   if (search?.toDate) q.push(`toDate=${encodeURIComponent(search.toDate)}`);
   const query = q.length ? `?${q.join("&")}` : "";
-  return apiFetch(`/entries${query}`);
+  return apiFetch<EntrySummary[]>(`/entries${query}`);
 }
 
+/**
+ * Get details for a single journal entry, with 'title' and 'content'.
+ */
 // PUBLIC_INTERFACE
 export async function getEntry(id: string): Promise<EntryDetail> {
-  return apiFetch(`/entries/${id}`);
+  return apiFetch<EntryDetail>(`/entries/${id}`);
 }
 
+/**
+ * Create a journal entry.
+ * Must include 'title', 'content', 'date'. Mood and tags are optional.
+ */
 // PUBLIC_INTERFACE
 export async function createEntry(entry: {
   title: string;
@@ -95,12 +111,16 @@ export async function createEntry(entry: {
   mood?: Mood;
   tags?: string[];
 }): Promise<EntryDetail> {
-  return apiFetch(`/entries`, {
+  return apiFetch<EntryDetail>(`/entries`, {
     method: "POST",
     body: JSON.stringify(entry)
   });
 }
 
+/**
+ * Update a journal entry.
+ * Supports updating 'title', 'content', 'date', and optional 'mood'/'tags'.
+ */
 // PUBLIC_INTERFACE
 export async function updateEntry(
   id: string, 
@@ -112,20 +132,26 @@ export async function updateEntry(
     tags?: string[];
   }
 ): Promise<EntryDetail> {
-  return apiFetch(`/entries/${id}`, {
+  return apiFetch<EntryDetail>(`/entries/${id}`, {
     method: "PUT",
     body: JSON.stringify(entry)
   });
 }
 
+/**
+ * Delete a journal entry by id.
+ */
 // PUBLIC_INTERFACE
 export async function deleteEntry(id: string): Promise<{ success: boolean }> {
-  return apiFetch(`/entries/${id}`, {
+  return apiFetch<{ success: boolean }>(`/entries/${id}`, {
     method: "DELETE"
   });
 }
 
+/**
+ * Fetch analytics about journal entries.
+ */
 // PUBLIC_INTERFACE
 export async function getAnalytics(): Promise<AnalyticsData> {
-  return apiFetch("/analytics");
+  return apiFetch<AnalyticsData>("/analytics");
 }

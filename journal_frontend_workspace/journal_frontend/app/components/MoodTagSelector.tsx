@@ -1,4 +1,3 @@
-import React from "react";
 import type { Mood } from "../utils/api";
 
 interface MoodTagSelectorProps {

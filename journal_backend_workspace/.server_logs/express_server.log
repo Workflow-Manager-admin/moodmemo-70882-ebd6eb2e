@@ -12,12 +12,32 @@ Here's the report:
 
 
  Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 45, column 1:
 
 /**
 ^^^
 
-Server running at http://0.0.0.0:3001
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
 [32m[nodemon] restarting due to changes...[39m
 [32m[nodemon] starting `node src/server.js`[39m
 [32m[nodemon] restarting due to changes...[39m
@@ -27,12 +47,32 @@ Here's the report:
 
 
  Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 45, column 1:
 
 /**
 ^^^
 
-Server running at http://0.0.0.0:3001
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
 [32m[nodemon] restarting due to changes...[39m
 [32m[nodemon] starting `node src/server.js`[39m
 [32m[nodemon] restarting due to changes...[39m
@@ -42,12 +82,32 @@ Here's the report:
 
 
  Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 45, column 1:
 
 /**
 ^^^
 
-Server running at http://0.0.0.0:3001
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
 [32m[nodemon] restarting due to changes...[39m
 [32m[nodemon] starting `node src/server.js`[39m
 [32m[nodemon] restarting due to changes...[39m
@@ -57,12 +117,32 @@ Here's the report:
 
 
  Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 45, column 1:
 
 /**
 ^^^
 
-Server running at http://0.0.0.0:3001
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
 [32m[nodemon] restarting due to changes...[39m
 [32m[nodemon] starting `node src/server.js`[39m
 [32m[nodemon] restarting due to changes...[39m
@@ -72,353 +152,34 @@ Here's the report:
 
 
  Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 45, column 1:
 
 /**
 ^^^
 
-Server running at http://0.0.0.0:3001
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
 [32m[nodemon] restarting due to changes...[39m
 [32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-[32m[nodemon] restarting due to changes...[39m
-[32m[nodemon] starting `node src/server.js`[39m
-Not all input has been taken into account at your final specification.
-Here's the report: 
-
-
- Error in ./src/routes/index.js :
-YAMLSemanticError: Implicit map keys need to be followed by map values at line 39, column 1:
-
-/**
-^^^
-
-Server running at http://0.0.0.0:3001
 [32m[nodemon] restarting due to changes...[39m
 [32m[nodemon] starting `node src/server.js`[39m
 Not all input has been taken into account at your final specification.
@@ -446,7 +207,29 @@ YAMLSemanticError: Implicit map keys need to be followed by map values at line 4
 /**
 ^^^
 
-Server running at http://0.0.0.0:3001
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
 [32m[nodemon] restarting due to changes...[39m
 [32m[nodemon] starting `node src/server.js`[39m
 Not all input has been taken into account at your final specification.
@@ -519,7 +302,279 @@ YAMLSemanticError: Implicit map keys need to be followed by map values at line 4
 /**
 ^^^
 
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               [32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 45, column 1:
+
+/**
+^^^
+
 Server running at http://0.0.0.0:3001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 45, column 1:
+
+/**
+^^^
+
+Server running at http://0.0.0.0:3001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 45, column 1:
+
+/**
+^^^
+
+Server running at http://0.0.0.0:3001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 45, column 1:
+
+/**
+^^^
+
+Server running at http://0.0.0.0:3001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 45, column 1:
+
+/**
+^^^
+
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 45, column 1:
+
+/**
+^^^
+
+Server running at http://0.0.0.0:3001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 45, column 1:
+
+/**
+^^^
+
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 45, column 1:
+
+/**
+^^^
+
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 45, column 1:
+
+/**
+^^^
+
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Not all input has been taken into account at your final specification.
+Here's the report: 
+
+
+ Error in ./src/routes/index.js :
+YAMLSemanticError: Implicit map keys need to be followed by map values at line 45, column 1:
+
+/**
+^^^
+
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v18.20.8
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
 [32m[nodemon] restarting due to changes...[39m
 [32m[nodemon] starting `node src/server.js`[39m
 Not all input has been taken into account at your final specification.
